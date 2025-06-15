@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Write the name of the food..."
+      />
+      <button id="searchBtn">Find</button>
+    </header>
+
+    <main id="mealContainer"></main>
+
+    <div id="mealDetailsModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
